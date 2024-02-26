@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>lab-two</title>
+        <style>
+            body{
+                margin:0; 
+                padding:0;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+            footer{
+                background-color: black;
+                color: white;
+                padding: 20px;
+                text-align: right;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            footer nav {
+                display: flex;
+                align-items: center;
+            }
+    
+            footer nav a {
+                color: white;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+            article img{
+                width: 600px;
+                height: 400px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <footer>
+            <h1>Welcome to Software Design Website</h1>
+            <nav>
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact us</a> 
+            </nav>
+        </footer>
+        <article>
+            <h2>About Us</h2>
+            <p>We are a company dedicated to providing excellent services to our customers</p>
+            <img src="https://i.pinimg.com/originals/6a/06/eb/6a06ebf4f9497424f53b27f31e86c91e.jpg" alt="About Us Image">
+        </article>
+        <article>
+            <h3>Our Services</h3>
+        </article>
+        <article>
+            <h3>Web Development</h3>
+            <p>We specialize in creating responsive and user-friendly websites.</p>
+            <img src="" alt="Web Dev Image">
+        </article>
+        <article>
+            <h3> Graphic Design</h3>
+            <p> Our talented designers can bring your ideas to life with stunning visuals.</p>
+            <img src="" alt="Graphic Design Image">
+        </article>
+    </body>
+</html>
